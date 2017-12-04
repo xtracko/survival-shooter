@@ -12,13 +12,13 @@ public class LevelManager : MonoBehaviour {
             Load("Default");
 
         if (Input.GetKeyDown(KeyCode.F2))
-            Load("Default");
+            Load("Bombs");
 
         if (Input.GetKeyDown(KeyCode.F3))
-            Load("Default");
+            Load("Portals");
 
         if (Input.GetKeyDown(KeyCode.F4))
-            Load("Default");
+            Load("TODO");
     }
 
     public static void Reload()
