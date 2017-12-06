@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
     public static string currentLevel = "Default";
 
+    private void Awake()
+    {
+        LevelManager.currentLevel = SceneManager.GetActiveScene().name;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F1))
