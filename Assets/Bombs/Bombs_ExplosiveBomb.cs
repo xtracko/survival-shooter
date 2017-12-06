@@ -53,7 +53,7 @@ public class Bombs_ExplosiveBomb : MonoBehaviour
                 enemyHealth.TakeDemage(damage);
             }
 
-            CompleteProject.PlayerHealth playerHealth = collider.GetComponent<CompleteProject.PlayerHealth>();
+            Bombs_PlayerHealth playerHealth = collider.GetComponent<Bombs_PlayerHealth>();
 
             if (playerHealth != null)
             {

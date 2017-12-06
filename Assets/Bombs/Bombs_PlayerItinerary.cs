@@ -63,7 +63,6 @@ public class Bombs_PlayerItinerary : MonoBehaviour
     public void GenerateBomb()
     {
         float sample = Random.value;
-        Debug.Log(sample);
 
         bool decoy = (0 <= sample && sample <= decoyProbability);
         bool explossive = (decoyProbability <= sample && sample <= decoyProbability + explosiveProbability);
