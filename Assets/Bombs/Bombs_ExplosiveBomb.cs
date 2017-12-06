@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Bombs_ExplosiveBomb : MonoBehaviour
 {
-    public float idleTime = 1f;
+    public float idleTime = 1.5f;
     public float radius = 5f;
     public int damage = 200;
     public int threshold = 4;

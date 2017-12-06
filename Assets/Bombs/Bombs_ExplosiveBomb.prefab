@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ac8883de883874d8a07720b5294abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleTime: 1
+  idleTime: 1.5
   radius: 5
   damage: 200
   threshold: 4
@@ -117,7 +117,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: e30ff3588e719f34bbf0c66f22d97487, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!135 &135252834699528192
 SphereCollider:
   m_ObjectHideFlags: 1

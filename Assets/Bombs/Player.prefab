@@ -448,8 +448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd0ba5ea60a8218428e9b0b1456b0973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  decoyProbability: 0.3
-  explosiveProbability: 0.3
+  decoyProbability: 0.1
+  explosiveProbability: 0.2
   decoyIndicator: {fileID: 0}
   explossiveIndicator: {fileID: 0}
   decoyBomb: {fileID: 1553794318411220, guid: 1c091c36999bd9643b78b396a980db58, type: 2}

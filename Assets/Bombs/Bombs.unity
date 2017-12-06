@@ -2936,7 +2936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 207.9, y: 11.3}
+  m_AnchoredPosition: {x: 207.9, y: 11.299988}
   m_SizeDelta: {x: 130, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1425024350
@@ -4138,16 +4138,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 114965852032209568, guid: 6edd65d3fb1166f4f9e41f7ec8798457,
-        type: 2}
-      propertyPath: healthSlider
-      value: 
-      objectReference: {fileID: 1837071937}
-    - target: {fileID: 114965852032209568, guid: 6edd65d3fb1166f4f9e41f7ec8798457,
-        type: 2}
-      propertyPath: damageImage
-      value: 
-      objectReference: {fileID: 1394906873}
     - target: {fileID: 114484162322772780, guid: 6edd65d3fb1166f4f9e41f7ec8798457,
         type: 2}
       propertyPath: decoyIndicator
@@ -4158,6 +4148,16 @@ Prefab:
       propertyPath: explossiveIndicator
       value: 
       objectReference: {fileID: 1425024350}
+    - target: {fileID: 114965852032209568, guid: 6edd65d3fb1166f4f9e41f7ec8798457,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1837071937}
+    - target: {fileID: 114965852032209568, guid: 6edd65d3fb1166f4f9e41f7ec8798457,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1394906873}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6edd65d3fb1166f4f9e41f7ec8798457, type: 2}
   m_IsPrefabParent: 0

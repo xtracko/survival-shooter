@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Bombs_PlayerItinerary : MonoBehaviour
 {
-    public float decoyProbability = 0.3f;
-    public float explosiveProbability = 0.3f;
+    public float decoyProbability = 0.1f;
+    public float explosiveProbability = 0.2f;
 
     public Text decoyIndicator;
     public Text explossiveIndicator;
@@ -17,7 +17,7 @@ public class Bombs_PlayerItinerary : MonoBehaviour
         None, Decoy, Explossive
     }
 
-    private Type bomb = Type.Explossive;
+    private Type bomb = Type.None;
 
     private void Awake()
     {
@@ -46,7 +46,7 @@ public class Bombs_PlayerItinerary : MonoBehaviour
                 break;
         }
 
-        bomb = Type.Explossive;
+        bomb = Type.None;
         UpdateIndicators();
     }
 
@@ -63,9 +63,10 @@ public class Bombs_PlayerItinerary : MonoBehaviour
     public void GenerateBomb()
     {
         float sample = Random.value;
+        Debug.Log(sample);
 
-        bool decoy = (0 <= sample && sample >= decoyProbability);
-        bool explossive = (decoyProbability <= sample && sample >= decoyProbability + explosiveProbability);
+        bool decoy = (0 <= sample && sample <= decoyProbability);
+        bool explossive = (decoyProbability <= sample && sample <= decoyProbability + explosiveProbability);
 
         if (decoy && !explossive)
         {
