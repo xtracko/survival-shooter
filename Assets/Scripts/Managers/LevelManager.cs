@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour {
             Load("Portals");
 
         if (Input.GetKeyDown(KeyCode.F4))
-            Load("TODO");
+            Load("Potions");
     }
 
     public static void Reload()
