@@ -6,7 +6,7 @@ namespace CompleteProject
     public class Potions_EnemyMovement : MonoBehaviour
     {
         Transform player;               // Reference to the player's position.
-        PlayerHealth playerHealth;      // Reference to the player's health.
+        Potions_PlayerHealth playerHealth;      // Reference to the player's health.
         Potions_EnemyHealth enemyHealth;        // Reference to this enemy's health.
         UnityEngine.AI.NavMeshAgent nav;               // Reference to the nav mesh agent.
 
@@ -15,7 +15,7 @@ namespace CompleteProject
         {
             // Set up the references.
             player = GameObject.FindGameObjectWithTag ("Player").transform;
-            playerHealth = player.GetComponent <PlayerHealth> ();
+            playerHealth = player.GetComponent <Potions_PlayerHealth> ();
             enemyHealth = GetComponent <Potions_EnemyHealth> ();
             nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
         }
