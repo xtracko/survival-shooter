@@ -7083,7 +7083,6 @@ MonoBehaviour:
   sinkSpeed: 2.5
   scoreValue: 10
   deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
-  playerItinerary: {fileID: 0}
 --- !u!114 &114915279221843830
 MonoBehaviour:
   m_ObjectHideFlags: 1
